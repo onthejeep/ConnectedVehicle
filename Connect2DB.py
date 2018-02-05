@@ -18,7 +18,7 @@ class Connect2MSSQL:
     @staticmethod
     def GetInisitance():
         if(Connect2MSSQL.__Connection__ is None):
-            Connect2MSSQL.__Connection__ = pymssql.connect(host = '131.247.19.173', user = 'Shu', password='Sql.slu2012', database= 'Here'); #  SunTran     MBTA
+            Connect2MSSQL.__Connection__ = pymssql.connect(host = '131.247.19.173', user = 'Shu', password='XXXX', database= 'Here'); #  SunTran     MBTA
             
         return Connect2MSSQL.__Connection__;
 
