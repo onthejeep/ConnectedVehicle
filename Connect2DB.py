@@ -25,6 +25,6 @@ class Connect2MSSQL:
     @staticmethod
     def GetInisitance_ODBC():
         if(Connect2MSSQL.__Connection__ is None):
-            Connect2MSSQL.__Connection__ = pyodbc.connect('DRIVER={SQL Server};SERVER=131.247.19.173;UID=Shu;PWD=Sql.slu2012'); #  SunTran     MBTA
+            Connect2MSSQL.__Connection__ = pyodbc.connect('DRIVER={SQL Server};SERVER=131.247.19.173;UID=Shu;PWD=XXXXX'); #  SunTran     MBTA
             
         return Connect2MSSQL.__Connection__;
