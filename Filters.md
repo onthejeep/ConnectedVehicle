@@ -7,11 +7,11 @@ Raw data receieved from THEA is organized in CSV format. Four columns are mainly
 
 Table 1. Columns in Raw Data
 | Column Name | Description |
-|-------------|:-----------:|
-|timestamp    | Unix timestamp in millisecond|
-|kind|always “in” for now|
-|psid| message type ID. 32 for BSM; 32770 for SPAT|
-|payload|XML encoded J2735 message|
+| ----------- | ----------- |
+| timestamp | Unix timestamp in millisecond |
+| kind | always “in” for now |
+| psid | message type ID. 32 for BSM; 32770 for SPAT |
+| payload | XML encoded J2735 message |
 
 
 
