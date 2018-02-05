@@ -57,7 +57,7 @@ The BSM meta data includes:
 
 An example of meta and message is shown below. The example is presented in JSON format.
 
-```
+```json
 {
 	"metadata": {
 		"schemaVersion": 1,
