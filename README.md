@@ -3,7 +3,7 @@
 The study area is pre-defined by local transit agency and academic research group. The area is in an ArcGIS shapefile (*.shp) format, and can be found under the folder "data\StudyArea.shp".
 
 ## Message Split
-Raw data receieved from THEA is organized in CSV format. Four columns are mainly included in raw data. Table 1 lists the details of the four columns. Table 2 shows examples of raw data.
+Raw data received from THEA is organized in CSV format. Four columns are mainly included in raw data. Table 1 lists the details of the four columns. Table 2 shows examples of raw data.
 
 Table 1. Columns in raw data
 
@@ -44,8 +44,8 @@ The BSM meta data includes:
 | schemaVersion | Version of the metadata schema |
 |recordGeneratedBy|Source of the record, whether OBU, RSU, MMITSS|
 |recordGeneratedAt|Closest time to which the record was created, either signed or received by the generatedBy source in UNIX format|
-|logFileName|Name of original files that receieved by CUTR CV Performance Evaluation group|
-|logFileSize|File size of original files that receieved by CUTR CV Performance Evaluation group|
+|logFileName|Name of original files that received by CUTR CV Performance Evaluation group|
+|logFileSize|File size of original files that received by CUTR CV Performance Evaluation group|
 |payloadType|Type of payload included with the message|
 |recordType|Type of message|
 |numRecord|Number of records in original files|
